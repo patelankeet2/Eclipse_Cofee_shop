@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Eclipse_Cofee_shop
 {
-    public partial class Form5 : Form
+    public partial class chaiLatte : Form
     {
-        public Form5()
+        public chaiLatte()
         {
             InitializeComponent();
         }

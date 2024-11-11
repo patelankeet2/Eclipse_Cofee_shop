@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Eclipse_Cofee_shop
 {
-    public partial class Form4 : Form
+    public partial class fluppy : Form
     {
-        public Form4()
+        public fluppy()
         {
             InitializeComponent();
         }

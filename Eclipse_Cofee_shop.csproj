@@ -74,7 +74,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cappuccino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cappuccino.Designer.cs">
+      <DependentUpon>cappuccino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cart.Designer.cs">
+      <DependentUpon>cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chaiLatte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chaiLatte.Designer.cs">
+      <DependentUpon>chaiLatte.cs</DependentUpon>
+    </Compile>
     <Compile Include="dbCustomer.cs" />
+    <Compile Include="flatWhite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flatWhite.Designer.cs">
+      <DependentUpon>flatWhite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fluppy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fluppy.Designer.cs">
+      <DependentUpon>fluppy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,17 +123,47 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="hotChoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="hotChoc.Designer.cs">
+      <DependentUpon>hotChoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="Latte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="Latte.Designer.cs">
+      <DependentUpon>Latte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="longBlack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="longBlack.Designer.cs">
+      <DependentUpon>longBlack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="matchaLatte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matchaLatte.Designer.cs">
+      <DependentUpon>matchaLatte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mochacino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mochacino.Designer.cs">
+      <DependentUpon>Mochacino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
