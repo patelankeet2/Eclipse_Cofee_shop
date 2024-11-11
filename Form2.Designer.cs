@@ -29,44 +29,45 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.buttonRegister = new System.Windows.Forms.Button();
+            this.textBoxregUsername = new System.Windows.Forms.TextBox();
+            this.textBoxregPassword = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonRegister
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Maroon;
-            this.button1.Location = new System.Drawing.Point(349, 319);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 43);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRegister.ForeColor = System.Drawing.Color.Maroon;
+            this.buttonRegister.Location = new System.Drawing.Point(349, 319);
+            this.buttonRegister.Name = "buttonRegister";
+            this.buttonRegister.Size = new System.Drawing.Size(107, 43);
+            this.buttonRegister.TabIndex = 0;
+            this.buttonRegister.Text = "Register";
+            this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
-            // textBox1
+            // textBoxregUsername
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Maroon;
-            this.textBox1.Location = new System.Drawing.Point(349, 207);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(107, 26);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Username";
+            this.textBoxregUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxregUsername.ForeColor = System.Drawing.Color.Maroon;
+            this.textBoxregUsername.Location = new System.Drawing.Point(349, 207);
+            this.textBoxregUsername.Name = "textBoxregUsername";
+            this.textBoxregUsername.Size = new System.Drawing.Size(107, 26);
+            this.textBoxregUsername.TabIndex = 1;
+            this.textBoxregUsername.Text = "Username";
             // 
-            // textBox2
+            // textBoxregPassword
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Maroon;
-            this.textBox2.Location = new System.Drawing.Point(349, 262);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(107, 26);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "Password";
+            this.textBoxregPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxregPassword.ForeColor = System.Drawing.Color.Maroon;
+            this.textBoxregPassword.Location = new System.Drawing.Point(349, 262);
+            this.textBoxregPassword.Name = "textBoxregPassword";
+            this.textBoxregPassword.Size = new System.Drawing.Size(107, 26);
+            this.textBoxregPassword.TabIndex = 2;
+            this.textBoxregPassword.Text = "Password";
             // 
             // textBox3
             // 
@@ -97,11 +98,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBoxregPassword);
+            this.Controls.Add(this.textBoxregUsername);
+            this.Controls.Add(this.buttonRegister);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -110,9 +112,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button buttonRegister;
+        private System.Windows.Forms.TextBox textBoxregUsername;
+        private System.Windows.Forms.TextBox textBoxregPassword;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
