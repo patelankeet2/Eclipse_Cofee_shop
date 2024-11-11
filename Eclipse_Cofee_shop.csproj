@@ -203,5 +203,101 @@
   <ItemGroup>
     <None Include="Resources\dashboard background img.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CASINO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee cup size 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee cup size 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee cup size 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee cup size 7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup size pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard background img1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard figma design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fluffy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl running gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jockerr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\long black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matcha coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matcha latte.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen card.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\racing gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\running dog gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sch camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sch mic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiger gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tigerr runing gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zigana gun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

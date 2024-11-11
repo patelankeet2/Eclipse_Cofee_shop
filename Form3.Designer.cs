@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.dashboard = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -45,9 +42,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.card = new System.Windows.Forms.Button();
             this.profile = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
-            this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -59,38 +55,11 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Blue;
-            this.panel4.Controls.Add(this.panel17);
             this.panel4.Controls.Add(this.dashboard);
             this.panel4.Location = new System.Drawing.Point(12, 12);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(213, 68);
             this.panel4.TabIndex = 20;
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.Transparent;
-            this.panel17.Controls.Add(this.panel18);
-            this.panel17.Controls.Add(this.pictureBox4);
-            this.panel17.Location = new System.Drawing.Point(199, 51);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(732, 461);
-            this.panel17.TabIndex = 8;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.White;
-            this.panel18.Location = new System.Drawing.Point(13, 20);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(200, 100);
-            this.panel18.TabIndex = 0;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(-378, -32);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(349, 548);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
             // 
             // dashboard
             // 
@@ -125,6 +94,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::Eclipse_Cofee_shop.Properties.Resources.table_logo;
             this.pictureBox5.Location = new System.Drawing.Point(0, 255);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(28, 32);
@@ -145,6 +115,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::Eclipse_Cofee_shop.Properties.Resources.card_logo;
             this.pictureBox6.Location = new System.Drawing.Point(0, 216);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(28, 33);
@@ -166,6 +137,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Image = global::Eclipse_Cofee_shop.Properties.Resources.order_logo;
             this.pictureBox7.Location = new System.Drawing.Point(0, 177);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(28, 33);
@@ -187,6 +159,7 @@
             // 
             // pictureBox14
             // 
+            this.pictureBox14.Image = global::Eclipse_Cofee_shop.Properties.Resources.menu_logo;
             this.pictureBox14.Location = new System.Drawing.Point(0, 138);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(28, 33);
@@ -196,6 +169,7 @@
             // 
             // pictureBox15
             // 
+            this.pictureBox15.Image = global::Eclipse_Cofee_shop.Properties.Resources.profile_logo;
             this.pictureBox15.Location = new System.Drawing.Point(0, 100);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(28, 34);
@@ -214,6 +188,7 @@
             this.button1.Text = "      Menu";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // card
             // 
@@ -226,6 +201,7 @@
             this.card.Text = "      Cart";
             this.card.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.card.UseVisualStyleBackColor = true;
+            this.card.Click += new System.EventHandler(this.card_Click);
             // 
             // profile
             // 
@@ -238,6 +214,17 @@
             this.profile.Text = "      Profile";
             this.profile.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.profile.UseVisualStyleBackColor = true;
+            this.profile.Click += new System.EventHandler(this.profile_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(244, 81);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(568, 33);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "WELCOME TO ECLIPSE COFFE SHOP";
             // 
             // Form3
             // 
@@ -245,6 +232,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.dashboard_background_img;
             this.ClientSize = new System.Drawing.Size(841, 567);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel19);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -252,8 +240,6 @@
             this.Text = "Form3";
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel19.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -261,15 +247,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label dashboard;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -283,5 +267,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button card;
         private System.Windows.Forms.Button profile;
+        private System.Windows.Forms.Label label1;
     }
 }
