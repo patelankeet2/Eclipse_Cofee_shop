@@ -67,5 +67,12 @@ namespace Eclipse_Cofee_shop
             RegisterPage.Show();
             this.Hide();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            FormForgotPassword forgotPasswordForm = new FormForgotPassword();
+            forgotPasswordForm.Show();
+            this.Hide();
+        }
     }
 }
