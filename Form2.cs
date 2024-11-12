@@ -25,7 +25,8 @@ namespace Eclipse_Cofee_shop
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            textBoxregUsername.Text = "";
+            textBoxregPassword.Text = "";
         }
 
         private void buttonRegister_Click(object sender, EventArgs e)
@@ -64,6 +65,18 @@ namespace Eclipse_Cofee_shop
             {
                 MessageBox.Show("Registration failed. " + customer.LastError, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Form1 LoginPage = new Form1();
+            LoginPage.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
