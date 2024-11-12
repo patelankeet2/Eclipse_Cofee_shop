@@ -95,6 +95,7 @@
             this.label1.Size = new System.Drawing.Size(184, 17);
             this.label1.TabIndex = 11;
             this.label1.Text = "Already  have any account?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -108,6 +109,7 @@
             this.label3.Size = new System.Drawing.Size(80, 17);
             this.label3.TabIndex = 15;
             this.label3.Text = "Login here.";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form2
             // 

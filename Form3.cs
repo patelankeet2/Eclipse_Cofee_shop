@@ -26,7 +26,7 @@ namespace Eclipse_Cofee_shop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
+            menu menu = new menu();
             menu.Show(this);
             this.Hide();
         }
