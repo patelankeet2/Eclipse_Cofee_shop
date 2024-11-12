@@ -16,5 +16,26 @@ namespace Eclipse_Cofee_shop
         {
             InitializeComponent();
         }
+
+        private void profile_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.Show(this);
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show(this);
+            this.Hide();
+        }
+
+        private void card_Click(object sender, EventArgs e)
+        {
+            cart cart = new cart();
+            cart.Show(this);
+            this.Hide();
+        }
     }
 }
