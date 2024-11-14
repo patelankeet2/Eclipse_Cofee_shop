@@ -182,6 +182,9 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
@@ -307,6 +310,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\card logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cappuccino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chai lattee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot choc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mocha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
