@@ -14,24 +14,22 @@ namespace Eclipse_Cofee_shop
     {
         dbCustomer customer = new dbCustomer();
 
-
         public Form1()
         {
             InitializeComponent();
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             textBoxUsername.Text = "";
             textBoxPassword.Text = "";
+            textBoxPassword.PasswordChar = '*'; // Mask the password field
         }
-
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             string customerID = textBoxUsername.Text.Trim();
-            Boolean signedIn = false;
+            bool signedIn = false;
 
             if (customerID != "")
             {
@@ -47,13 +45,10 @@ namespace Eclipse_Cofee_shop
             if (signedIn)
             {
                 MessageBox.Show("Signed in. Press Enter to continue.", "Sign In");
-                
-                Form3 Dashboard = new Form3();
-                Dashboard.Show();
+
+                Form3 dashboard = new Form3();
+                dashboard.Show();
                 this.Hide();
-
-               
-
             }
             else
             {
@@ -63,8 +58,8 @@ namespace Eclipse_Cofee_shop
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Form2 RegisterPage = new Form2();
-            RegisterPage.Show();
+            Form2 registerPage = new Form2();
+            registerPage.Show();
             this.Hide();
         }
 
@@ -73,6 +68,19 @@ namespace Eclipse_Cofee_shop
             FormForgotPassword forgotPasswordForm = new FormForgotPassword();
             forgotPasswordForm.Show();
             this.Hide();
+        }
+
+
+        private void checkBoxShowPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxshowpassword.Checked)
+            {
+                textBoxPassword.PasswordChar = '\0'; // Show password
+            }
+            else
+            {
+                textBoxPassword.PasswordChar = '*'; // Mask password
+            }
         }
     }
 }

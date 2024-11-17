@@ -36,6 +36,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.checkBoxshowpassword = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,12 +125,23 @@
             this.label3.Text = "Register here.";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // checkBoxshowpassword
+            // 
+            this.checkBoxshowpassword.AutoSize = true;
+            this.checkBoxshowpassword.Location = new System.Drawing.Point(771, 356);
+            this.checkBoxshowpassword.Name = "checkBoxshowpassword";
+            this.checkBoxshowpassword.Size = new System.Drawing.Size(18, 17);
+            this.checkBoxshowpassword.TabIndex = 15;
+            this.checkBoxshowpassword.UseVisualStyleBackColor = true;
+            this.checkBoxshowpassword.CheckedChanged += new System.EventHandler(this.checkBoxShowPassword_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1419, 977);
+            this.Controls.Add(this.checkBoxshowpassword);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxPassword);
@@ -155,6 +167,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox checkBoxshowpassword;
     }
 }
 
