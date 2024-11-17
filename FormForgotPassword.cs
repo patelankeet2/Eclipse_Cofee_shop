@@ -20,7 +20,8 @@ namespace Eclipse_Cofee_shop
 
         private void FormForgotPassword_Load(object sender, EventArgs e)
         {
-
+            textBoxForgotUsername.Text = "";
+            textBoxNewPassword.Text = "";
         }
 
         private void buttonResetPassword_Click(object sender, EventArgs e)
