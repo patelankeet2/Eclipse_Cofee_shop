@@ -60,5 +60,12 @@ namespace Eclipse_Cofee_shop
                 MessageBox.Show("Username not found. Please check your information.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form1 loginForm = new Form1();
+            loginForm.Show();
+            this.Close();
+        }
     }
 }
