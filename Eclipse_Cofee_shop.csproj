@@ -173,15 +173,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="cappuccino.resx">
-      <DependentUpon>cappuccino.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="cart.resx">
-      <DependentUpon>cart.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="flatWhite.resx">
-      <DependentUpon>flatWhite.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,17 +182,6 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Latte.resx">
-      <DependentUpon>Latte.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="menu.resx">
-      <DependentUpon>menu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mochacino.resx">
-      <DependentUpon>Mochacino.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Profile.resx">
-      <DependentUpon>Profile.cs</DependentUpon>
     <EmbeddedResource Include="FormForgotPassword.resx">
       <DependentUpon>FormForgotPassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -329,26 +309,7 @@
     <None Include="Resources\card logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cappuccino.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chai lattee.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\flat white.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hot choc.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mocha.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %281%29.png" />
-
+    <None Include="Resources\bg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

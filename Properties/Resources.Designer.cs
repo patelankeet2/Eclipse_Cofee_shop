@@ -63,15 +63,9 @@ namespace Eclipse_Cofee_shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
-        internal static System.Drawing.Bitmap cappuccino {
-            get {
-                object obj = ResourceManager.GetObject("cappuccino", resourceCulture);
-
         internal static System.Drawing.Bitmap bg {
             get {
                 object obj = ResourceManager.GetObject("bg", resourceCulture);
-
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -92,16 +86,6 @@ namespace Eclipse_Cofee_shop.Properties {
         internal static System.Drawing.Bitmap CASINO {
             get {
                 object obj = ResourceManager.GetObject("CASINO", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap chai_lattee {
-            get {
-                object obj = ResourceManager.GetObject("chai lattee", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -199,36 +183,6 @@ namespace Eclipse_Cofee_shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap download__1_ {
-            get {
-                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap download__2_ {
-            get {
-                object obj = ResourceManager.GetObject("download (2)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap flat_white {
-            get {
-                object obj = ResourceManager.GetObject("flat white", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap fluffy {
             get {
                 object obj = ResourceManager.GetObject("fluffy", resourceCulture);
@@ -242,16 +196,6 @@ namespace Eclipse_Cofee_shop.Properties {
         internal static System.Drawing.Bitmap girl_running_gif {
             get {
                 object obj = ResourceManager.GetObject("girl running gif", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hot_choc {
-            get {
-                object obj = ResourceManager.GetObject("hot choc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -312,16 +256,6 @@ namespace Eclipse_Cofee_shop.Properties {
         internal static System.Drawing.Bitmap menu_logo {
             get {
                 object obj = ResourceManager.GetObject("menu logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mocha {
-            get {
-                object obj = ResourceManager.GetObject("mocha", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
