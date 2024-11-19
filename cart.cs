@@ -33,7 +33,9 @@ namespace Eclipse_Cofee_shop
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Payment payment = new Payment();
+            payment.Show(this);
+            this.Hide();
         }
     }
 }
