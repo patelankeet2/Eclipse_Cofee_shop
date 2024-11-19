@@ -100,7 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.bg;
+            this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.dashboard_background_img;
             this.ClientSize = new System.Drawing.Size(1036, 605);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
