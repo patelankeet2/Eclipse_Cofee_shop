@@ -30,5 +30,10 @@ namespace Eclipse_Cofee_shop
             menu.Show(this);
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

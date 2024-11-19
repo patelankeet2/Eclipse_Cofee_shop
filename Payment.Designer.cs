@@ -1,6 +1,6 @@
 ﻿namespace Eclipse_Cofee_shop
 {
-    partial class cart
+    partial class Payment
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.button2 = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.panel4 = new System.Windows.Forms.Panel();
             this.viewCard = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
@@ -57,7 +45,16 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelaccnum = new System.Windows.Forms.Label();
+            this.labelnamecard = new System.Windows.Forms.Label();
+            this.labelsecode = new System.Windows.Forms.Label();
+            this.labelexpdate = new System.Windows.Forms.Label();
+            this.buttonSubmitPayment = new System.Windows.Forms.Button();
+            this.textBoxaccnum = new System.Windows.Forms.TextBox();
+            this.textBoxnamecard = new System.Windows.Forms.TextBox();
+            this.textBoxExpDate = new System.Windows.Forms.TextBox();
+            this.textBoxSecCode = new System.Windows.Forms.TextBox();
             this.panel4.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel19.SuspendLayout();
@@ -69,90 +66,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.name,
-            this.Column1,
-            this.Column3,
-            this.Column2,
-            this.Column4,
-            this.edit,
-            this.delete});
-            this.dataGridView1.Location = new System.Drawing.Point(234, 82);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dataGridView1.Size = new System.Drawing.Size(732, 404);
-            this.dataGridView1.TabIndex = 25;
-            // 
-            // name
-            // 
-            this.name.HeaderText = "Name";
-            this.name.Name = "name";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Item";
-            this.Column1.Name = "Column1";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Quantity";
-            this.Column3.Name = "Column3";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Price";
-            this.Column2.Name = "Column2";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Total";
-            this.Column4.Name = "Column4";
-            // 
-            // edit
-            // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.edit.DefaultCellStyle = dataGridViewCellStyle1;
-            this.edit.HeaderText = "EDIT";
-            this.edit.Name = "edit";
-            this.edit.Text = "EDIT";
-            this.edit.UseColumnTextForButtonValue = true;
-            // 
-            // delete
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.delete.DefaultCellStyle = dataGridViewCellStyle2;
-            this.delete.HeaderText = "DELETE";
-            this.delete.Name = "delete";
-            this.delete.Text = "DELETE";
-            this.delete.UseColumnTextForButtonValue = true;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(707, 504);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(259, 51);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "Add To Payment ";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.BackColor = System.Drawing.Color.Black;
-            this.progressBar1.Location = new System.Drawing.Point(237, 504);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(463, 51);
-            this.progressBar1.TabIndex = 23;
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Blue;
@@ -162,7 +75,7 @@
             this.panel4.Location = new System.Drawing.Point(12, 12);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(213, 68);
-            this.panel4.TabIndex = 22;
+            this.panel4.TabIndex = 24;
             // 
             // viewCard
             // 
@@ -213,7 +126,7 @@
             this.panel19.Location = new System.Drawing.Point(12, 12);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(213, 543);
-            this.panel19.TabIndex = 21;
+            this.panel19.TabIndex = 23;
             // 
             // logOut
             // 
@@ -261,7 +174,6 @@
             this.button1.Text = "      Menu";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // card
             // 
@@ -286,7 +198,6 @@
             this.profile.Text = "      Profile";
             this.profile.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.profile.UseVisualStyleBackColor = true;
-            this.profile.Click += new System.EventHandler(this.profile_Click);
             // 
             // pictureBox4
             // 
@@ -346,22 +257,138 @@
             this.pictureBox15.TabIndex = 1;
             this.pictureBox15.TabStop = false;
             // 
-            // cart
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label1.Location = new System.Drawing.Point(478, 95);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(281, 31);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "PAYMENT DETAILS";
+            // 
+            // labelaccnum
+            // 
+            this.labelaccnum.AutoSize = true;
+            this.labelaccnum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.labelaccnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelaccnum.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.labelaccnum.Location = new System.Drawing.Point(333, 198);
+            this.labelaccnum.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelaccnum.Name = "labelaccnum";
+            this.labelaccnum.Size = new System.Drawing.Size(159, 24);
+            this.labelaccnum.TabIndex = 26;
+            this.labelaccnum.Text = "Account Number:";
+            // 
+            // labelnamecard
+            // 
+            this.labelnamecard.AutoSize = true;
+            this.labelnamecard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.labelnamecard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelnamecard.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.labelnamecard.Location = new System.Drawing.Point(354, 237);
+            this.labelnamecard.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelnamecard.Name = "labelnamecard";
+            this.labelnamecard.Size = new System.Drawing.Size(138, 24);
+            this.labelnamecard.TabIndex = 27;
+            this.labelnamecard.Text = "Name on Card:";
+            // 
+            // labelsecode
+            // 
+            this.labelsecode.AutoSize = true;
+            this.labelsecode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.labelsecode.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelsecode.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.labelsecode.Location = new System.Drawing.Point(359, 314);
+            this.labelsecode.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelsecode.Name = "labelsecode";
+            this.labelsecode.Size = new System.Drawing.Size(133, 24);
+            this.labelsecode.TabIndex = 28;
+            this.labelsecode.Text = "Security Code:";
+            // 
+            // labelexpdate
+            // 
+            this.labelexpdate.AutoSize = true;
+            this.labelexpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.labelexpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelexpdate.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.labelexpdate.Location = new System.Drawing.Point(381, 275);
+            this.labelexpdate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelexpdate.Name = "labelexpdate";
+            this.labelexpdate.Size = new System.Drawing.Size(111, 24);
+            this.labelexpdate.TabIndex = 29;
+            this.labelexpdate.Text = "Expiry Date:";
+            // 
+            // buttonSubmitPayment
+            // 
+            this.buttonSubmitPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSubmitPayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSubmitPayment.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.buttonSubmitPayment.Location = new System.Drawing.Point(543, 382);
+            this.buttonSubmitPayment.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonSubmitPayment.Name = "buttonSubmitPayment";
+            this.buttonSubmitPayment.Size = new System.Drawing.Size(216, 37);
+            this.buttonSubmitPayment.TabIndex = 30;
+            this.buttonSubmitPayment.Text = "Submit Payment";
+            this.buttonSubmitPayment.UseVisualStyleBackColor = true;
+            // 
+            // textBoxaccnum
+            // 
+            this.textBoxaccnum.Location = new System.Drawing.Point(515, 198);
+            this.textBoxaccnum.Multiline = true;
+            this.textBoxaccnum.Name = "textBoxaccnum";
+            this.textBoxaccnum.Size = new System.Drawing.Size(253, 24);
+            this.textBoxaccnum.TabIndex = 31;
+            // 
+            // textBoxnamecard
+            // 
+            this.textBoxnamecard.Location = new System.Drawing.Point(515, 237);
+            this.textBoxnamecard.Multiline = true;
+            this.textBoxnamecard.Name = "textBoxnamecard";
+            this.textBoxnamecard.Size = new System.Drawing.Size(253, 24);
+            this.textBoxnamecard.TabIndex = 32;
+            // 
+            // textBoxExpDate
+            // 
+            this.textBoxExpDate.Location = new System.Drawing.Point(515, 275);
+            this.textBoxExpDate.Multiline = true;
+            this.textBoxExpDate.Name = "textBoxExpDate";
+            this.textBoxExpDate.Size = new System.Drawing.Size(253, 24);
+            this.textBoxExpDate.TabIndex = 33;
+            // 
+            // textBoxSecCode
+            // 
+            this.textBoxSecCode.Location = new System.Drawing.Point(515, 314);
+            this.textBoxSecCode.Multiline = true;
+            this.textBoxSecCode.Name = "textBoxSecCode";
+            this.textBoxSecCode.Size = new System.Drawing.Size(253, 24);
+            this.textBoxSecCode.TabIndex = 34;
+            // 
+            // Payment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
+            this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.dashboard_background_img;
             this.ClientSize = new System.Drawing.Size(983, 566);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.textBoxSecCode);
+            this.Controls.Add(this.textBoxExpDate);
+            this.Controls.Add(this.textBoxnamecard);
+            this.Controls.Add(this.textBoxaccnum);
+            this.Controls.Add(this.buttonSubmitPayment);
+            this.Controls.Add(this.labelexpdate);
+            this.Controls.Add(this.labelsecode);
+            this.Controls.Add(this.labelnamecard);
+            this.Controls.Add(this.labelaccnum);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel19);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "cart";
+            this.Name = "Payment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "cart";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "Payment";
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel17.ResumeLayout(false);
@@ -373,21 +400,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewButtonColumn edit;
-        private System.Windows.Forms.DataGridViewButtonColumn delete;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button viewCard;
         private System.Windows.Forms.Panel panel17;
@@ -405,5 +423,15 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button card;
         private System.Windows.Forms.Button profile;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelaccnum;
+        private System.Windows.Forms.Label labelnamecard;
+        private System.Windows.Forms.Label labelsecode;
+        private System.Windows.Forms.Label labelexpdate;
+        private System.Windows.Forms.Button buttonSubmitPayment;
+        private System.Windows.Forms.TextBox textBoxaccnum;
+        private System.Windows.Forms.TextBox textBoxnamecard;
+        private System.Windows.Forms.TextBox textBoxExpDate;
+        private System.Windows.Forms.TextBox textBoxSecCode;
     }
 }
