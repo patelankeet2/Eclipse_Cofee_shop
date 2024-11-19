@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,14 +12,11 @@ namespace Eclipse_Cofee_shop
 {
     public partial class cappuccino : Form
     {
-        string item;
-        int quantity;
-        double price;
-        double total;
         public cappuccino()
         {
             InitializeComponent();
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -64,5 +60,6 @@ namespace Eclipse_Cofee_shop
             menu.Show(this);
             this.Hide();
         }
+
     }
 }
