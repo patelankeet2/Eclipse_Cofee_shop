@@ -17,6 +17,7 @@ namespace Eclipse_Cofee_shop
         int quantity;
         double price;
         double total;
+
         public flatWhite()
         {
             InitializeComponent();
@@ -55,9 +56,26 @@ namespace Eclipse_Cofee_shop
             else
             {
                 MessageBox.Show("please choose cup size to proceed your order");
-                quantity = 0;
+                return;
             }
             total = price * quantity;
+
+            // Save order to the database
+            dbItem db = new dbItem();
+            db.data.Item = item;
+            db.data.Quantity = Convert.ToInt32(quantity.ToString());
+            db.data.Price = Convert.ToDouble(price.ToString());
+            db.data.Total = Convert.ToDouble(total.ToString());
+
+            string recordID = "1"; // Unique record ID for Flat White
+            if (db.Update(recordID))
+            {
+                MessageBox.Show("Order saved successfully!");
+            }
+            else
+            {
+                MessageBox.Show($"Failed to save the order. Error: {db.LastError}");
+            }
 
             menu menu = new menu();
             menu.Show(this);
