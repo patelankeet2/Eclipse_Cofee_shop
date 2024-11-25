@@ -31,20 +31,20 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.viewCard = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.dashboard = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.logOut = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.tableReservation = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.order = new System.Windows.Forms.Button();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.card = new System.Windows.Forms.Button();
             this.profile = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelaccnum = new System.Windows.Forms.Label();
             this.labelnamecard = new System.Windows.Forms.Label();
@@ -57,8 +57,8 @@
             this.textBoxSecCode = new System.Windows.Forms.TextBox();
             this.panel4.SuspendLayout();
             this.panel17.SuspendLayout();
-            this.panel19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -97,6 +97,14 @@
             this.panel17.Size = new System.Drawing.Size(709, 461);
             this.panel17.TabIndex = 8;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(-378, -32);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(349, 548);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
             // dashboard
             // 
             this.dashboard.AutoSize = true;
@@ -128,6 +136,16 @@
             this.panel19.Size = new System.Drawing.Size(213, 543);
             this.panel19.TabIndex = 23;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Eclipse_Cofee_shop.Properties.Resources.table_logo;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 255);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(28, 32);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
+            // 
             // logOut
             // 
             this.logOut.BackColor = System.Drawing.Color.Yellow;
@@ -138,6 +156,17 @@
             this.logOut.TabIndex = 5;
             this.logOut.Text = "Log Out";
             this.logOut.UseVisualStyleBackColor = false;
+            this.logOut.Click += new System.EventHandler(this.logOut_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Eclipse_Cofee_shop.Properties.Resources.order_logo;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 216);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(28, 33);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 8;
+            this.pictureBox6.TabStop = false;
             // 
             // tableReservation
             // 
@@ -151,6 +180,16 @@
             this.tableReservation.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.tableReservation.UseVisualStyleBackColor = true;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Eclipse_Cofee_shop.Properties.Resources.card_logo;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 177);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(28, 33);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 7;
+            this.pictureBox7.TabStop = false;
+            // 
             // order
             // 
             this.order.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -162,80 +201,6 @@
             this.order.Text = "      Order";
             this.order.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.order.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(0, 138);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(213, 33);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "      Menu";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // card
-            // 
-            this.card.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.card.ForeColor = System.Drawing.Color.Blue;
-            this.card.Location = new System.Drawing.Point(0, 177);
-            this.card.Name = "card";
-            this.card.Size = new System.Drawing.Size(213, 33);
-            this.card.TabIndex = 3;
-            this.card.Text = "      Cart";
-            this.card.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.card.UseVisualStyleBackColor = true;
-            // 
-            // profile
-            // 
-            this.profile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.profile.ForeColor = System.Drawing.Color.Blue;
-            this.profile.Location = new System.Drawing.Point(0, 100);
-            this.profile.Name = "profile";
-            this.profile.Size = new System.Drawing.Size(213, 34);
-            this.profile.TabIndex = 0;
-            this.profile.Text = "      Profile";
-            this.profile.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.profile.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(-378, -32);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(349, 548);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Eclipse_Cofee_shop.Properties.Resources.table_logo;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 255);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(28, 32);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Eclipse_Cofee_shop.Properties.Resources.order_logo;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 216);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(28, 33);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 8;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Eclipse_Cofee_shop.Properties.Resources.card_logo;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 177);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(28, 33);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
             // 
             // pictureBox14
             // 
@@ -256,6 +221,45 @@
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 1;
             this.pictureBox15.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(0, 138);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(213, 33);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "      Menu";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // card
+            // 
+            this.card.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.card.ForeColor = System.Drawing.Color.Blue;
+            this.card.Location = new System.Drawing.Point(0, 177);
+            this.card.Name = "card";
+            this.card.Size = new System.Drawing.Size(213, 33);
+            this.card.TabIndex = 3;
+            this.card.Text = "      Cart";
+            this.card.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.card.UseVisualStyleBackColor = true;
+            this.card.Click += new System.EventHandler(this.card_Click);
+            // 
+            // profile
+            // 
+            this.profile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profile.ForeColor = System.Drawing.Color.Blue;
+            this.profile.Location = new System.Drawing.Point(0, 100);
+            this.profile.Name = "profile";
+            this.profile.Size = new System.Drawing.Size(213, 34);
+            this.profile.TabIndex = 0;
+            this.profile.Text = "      Profile";
+            this.profile.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.profile.UseVisualStyleBackColor = true;
+            this.profile.Click += new System.EventHandler(this.profile_Click);
             // 
             // label1
             // 
@@ -392,8 +396,8 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel17.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel19.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
