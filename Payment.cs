@@ -54,6 +54,30 @@ namespace Eclipse_Cofee_shop
             SetPlaceholder(textBoxSecCode, "Enter Security Code");
         }
 
+        private void SetPlaceholder(TextBox textBox, string placeholder)
+        {
+            textBox.Text = placeholder;
+            textBox.ForeColor = Color.Gray;
+
+            textBox.GotFocus += (sender, e) =>
+            {
+                if (textBox.Text == placeholder)
+                {
+                    textBox.Text = "";
+                    textBox.ForeColor = Color.Black;
+                }
+            };
+
+            textBox.LostFocus += (sender, e) =>
+            {
+                if (string.IsNullOrWhiteSpace(textBox.Text))
+                {
+                    textBox.Text = placeholder;
+                    textBox.ForeColor = Color.Gray;
+                }
+            };
+        }
+
 
         private void buttonSubmitPayment_Click(object sender, EventArgs e)
         {
