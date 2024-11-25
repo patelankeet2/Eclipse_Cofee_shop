@@ -16,6 +16,8 @@ namespace Eclipse_Cofee_shop
         public Payment()
         {
             InitializeComponent();
+            SetPlaceholders();
+            AddInputRestrictions();
         }
 
         private void profile_Click(object sender, EventArgs e)
