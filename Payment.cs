@@ -151,6 +151,37 @@ namespace Eclipse_Cofee_shop
 
         private void buttonSubmitPayment_Click(object sender, EventArgs e)
         {
+            // Validate account number format
+            string accountNumber = textBoxaccnum.Text.Replace("-", ""); // Remove dashes for validation
+            if (accountNumber.Length != 16 || textBoxaccnum.ForeColor == Color.Gray)
+            {
+                MessageBox.Show("Please enter a valid account number in the format NNNN-NNNN-NNNN-NNNN.");
+                return;
+            }
+
+            // Validate expiry date format
+            if (textBoxExpDate.ForeColor == Color.Red || textBoxExpDate.Text.Length != 5)
+            {
+                MessageBox.Show("Please enter a valid expiry date in MM/YY format.");
+                return;
+            }
+
+            // Validate CVC code
+            if (textBoxSecCode.Text.Length != 3 || textBoxSecCode.ForeColor == Color.Gray)
+            {
+                MessageBox.Show("Please enter a valid 3-digit security code.");
+                return;
+            }
+
+            // Validate name on card
+            if (textBoxnamecard.Text == "Enter Name on Card" || string.IsNullOrWhiteSpace(textBoxnamecard.Text))
+            {
+                MessageBox.Show("Please enter the name on the card.");
+                return;
+            }
+
+            // If all validations pass
+            MessageBox.Show("Payment submitted successfully!");
 
         }
     }
