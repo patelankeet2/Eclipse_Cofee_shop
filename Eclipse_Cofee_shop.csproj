@@ -93,6 +93,7 @@
       <DependentUpon>chaiLatte.cs</DependentUpon>
     </Compile>
     <Compile Include="dbCustomer.cs" />
+    <Compile Include="dbItem.cs" />
     <Compile Include="flatWhite.cs">
       <SubType>Form</SubType>
     </Compile>
