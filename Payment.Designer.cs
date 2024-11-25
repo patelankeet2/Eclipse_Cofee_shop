@@ -338,9 +338,11 @@
             this.buttonSubmitPayment.TabIndex = 30;
             this.buttonSubmitPayment.Text = "Submit Payment";
             this.buttonSubmitPayment.UseVisualStyleBackColor = true;
+            this.buttonSubmitPayment.Click += new System.EventHandler(this.buttonSubmitPayment_Click);
             // 
             // textBoxaccnum
             // 
+            this.textBoxaccnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxaccnum.Location = new System.Drawing.Point(515, 198);
             this.textBoxaccnum.Multiline = true;
             this.textBoxaccnum.Name = "textBoxaccnum";
@@ -349,6 +351,7 @@
             // 
             // textBoxnamecard
             // 
+            this.textBoxnamecard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxnamecard.Location = new System.Drawing.Point(515, 237);
             this.textBoxnamecard.Multiline = true;
             this.textBoxnamecard.Name = "textBoxnamecard";
@@ -357,6 +360,7 @@
             // 
             // textBoxExpDate
             // 
+            this.textBoxExpDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxExpDate.Location = new System.Drawing.Point(515, 275);
             this.textBoxExpDate.Multiline = true;
             this.textBoxExpDate.Name = "textBoxExpDate";
@@ -365,6 +369,7 @@
             // 
             // textBoxSecCode
             // 
+            this.textBoxSecCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSecCode.Location = new System.Drawing.Point(515, 314);
             this.textBoxSecCode.Multiline = true;
             this.textBoxSecCode.Name = "textBoxSecCode";

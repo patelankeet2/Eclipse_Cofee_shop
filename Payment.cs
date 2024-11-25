@@ -44,5 +44,20 @@ namespace Eclipse_Cofee_shop
             LoginPage.Show();
             this.Hide();
         }
+
+        // Method to set initial placeholders
+        private void SetPlaceholders()
+        {
+            SetPlaceholder(textBoxaccnum, "NNNN-NNNN-NNNN-NNNN");
+            SetPlaceholder(textBoxnamecard, "Enter Name on Card");
+            SetPlaceholder(textBoxExpDate, "MM/YY");
+            SetPlaceholder(textBoxSecCode, "Enter Security Code");
+        }
+
+
+        private void buttonSubmitPayment_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
