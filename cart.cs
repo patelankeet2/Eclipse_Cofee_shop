@@ -53,11 +53,15 @@ namespace Eclipse_Cofee_shop
                 string[] itemIds = { "1", "2", "3", "4" }; 
 
                 dataGridView1.Rows.Clear();
+                double totalPurchaseAmount = 0;
 
                 foreach (var itemId in itemIds)
                 {
                     if (db.ReadItem(itemId))
                     {
+                        double itemTotal = db.data.Total;
+                        totalPurchaseAmount += itemTotal;
+
                         dataGridView1.Rows.Add(
                             db.data.Item,
                             db.data.Quantity,
@@ -68,6 +72,7 @@ namespace Eclipse_Cofee_shop
                         );
                     }
                 }
+                TotalPurchase.Text = $"Total Purchase: {totalPurchaseAmount:C}";
             }
             catch (Exception ex)
             {
@@ -78,6 +83,25 @@ namespace Eclipse_Cofee_shop
         private void cart_Load(object sender, EventArgs e)
         {
             LoadCartData();
+        }
+
+        private void TotalPurchase_Click(object sender, EventArgs e)
+        {
+            double totalPurchaseAmount = 0;
+
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                if (row.Cells["Total"]?.Value != null)
+                {
+                    double itemTotal;
+                    if (double.TryParse(row.Cells["Total"].Value.ToString(), out itemTotal))
+                    {
+                        totalPurchaseAmount += itemTotal;
+                    }
+                }
+            }
+
+            TotalPurchase.Text = $"Total Purchase: {totalPurchaseAmount:C}";
         }
     }
 }

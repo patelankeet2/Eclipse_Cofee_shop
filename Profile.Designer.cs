@@ -46,6 +46,7 @@
             this.menu = new System.Windows.Forms.Button();
             this.card = new System.Windows.Forms.Button();
             this.profile1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
@@ -279,12 +280,25 @@
             this.profile1.UseVisualStyleBackColor = true;
             this.profile1.Click += new System.EventHandler(this.profile1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label1.Location = new System.Drawing.Point(342, 114);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(824, 44);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "Profile will be executed in future.";
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.dashboard_background_img1;
             this.ClientSize = new System.Drawing.Size(1309, 698);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel19);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -292,6 +306,7 @@
             this.Name = "Profile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Profile_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel17.ResumeLayout(false);
@@ -305,6 +320,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -327,5 +343,6 @@
         private System.Windows.Forms.Button menu;
         private System.Windows.Forms.Button card;
         private System.Windows.Forms.Button profile1;
+        private System.Windows.Forms.Label label1;
     }
 }

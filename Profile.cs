@@ -49,5 +49,10 @@ namespace Eclipse_Cofee_shop
             LoginPage.Show();
             this.Hide();
         }
+
+        private void Profile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
