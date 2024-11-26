@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormForgotPassword));
             this.textBoxForgotUsername = new System.Windows.Forms.TextBox();
             this.textBoxNewPassword = new System.Windows.Forms.TextBox();
             this.buttonResetPassword = new System.Windows.Forms.Button();
@@ -41,7 +40,7 @@
             // 
             this.textBoxForgotUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxForgotUsername.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.textBoxForgotUsername.Location = new System.Drawing.Point(342, 295);
+            this.textBoxForgotUsername.Location = new System.Drawing.Point(512, 330);
             this.textBoxForgotUsername.Multiline = true;
             this.textBoxForgotUsername.Name = "textBoxForgotUsername";
             this.textBoxForgotUsername.Size = new System.Drawing.Size(244, 33);
@@ -53,7 +52,7 @@
             // 
             this.textBoxNewPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNewPassword.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.textBoxNewPassword.Location = new System.Drawing.Point(342, 366);
+            this.textBoxNewPassword.Location = new System.Drawing.Point(512, 401);
             this.textBoxNewPassword.Multiline = true;
             this.textBoxNewPassword.Name = "textBoxNewPassword";
             this.textBoxNewPassword.Size = new System.Drawing.Size(244, 33);
@@ -63,9 +62,10 @@
             // 
             // buttonResetPassword
             // 
+            this.buttonResetPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonResetPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonResetPassword.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.buttonResetPassword.Location = new System.Drawing.Point(320, 448);
+            this.buttonResetPassword.Location = new System.Drawing.Point(490, 483);
             this.buttonResetPassword.Name = "buttonResetPassword";
             this.buttonResetPassword.Size = new System.Drawing.Size(302, 63);
             this.buttonResetPassword.TabIndex = 2;
@@ -75,8 +75,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(228, 12);
+            this.pictureBox1.Image = global::Eclipse_Cofee_shop.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(412, 47);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(452, 190);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -87,11 +87,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label1.Location = new System.Drawing.Point(393, 544);
+            this.label1.Location = new System.Drawing.Point(563, 579);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 29);
+            this.label1.Size = new System.Drawing.Size(148, 29);
             this.label1.TabIndex = 9;
             this.label1.Text = "Login Page?";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -101,13 +101,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.dashboard_background_img;
-            this.ClientSize = new System.Drawing.Size(1036, 605);
+            this.ClientSize = new System.Drawing.Size(1301, 651);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonResetPassword);
             this.Controls.Add(this.textBoxNewPassword);
             this.Controls.Add(this.textBoxForgotUsername);
             this.Name = "FormForgotPassword";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormForgotPassword";
             this.Load += new System.EventHandler(this.FormForgotPassword_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -198,6 +198,9 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormForgotPassword.resx">
+      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Latte.resx">
       <DependentUpon>Latte.cs</DependentUpon>
     </EmbeddedResource>
@@ -356,6 +359,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
