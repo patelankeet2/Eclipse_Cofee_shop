@@ -31,13 +31,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.button2 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -57,6 +50,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.card = new System.Windows.Forms.Button();
             this.profile = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.TotalPurchase = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel17.SuspendLayout();
@@ -75,7 +75,6 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.name,
             this.Column1,
             this.Column3,
             this.Column2,
@@ -90,65 +89,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(976, 497);
             this.dataGridView1.TabIndex = 25;
             // 
-            // name
-            // 
-            this.name.HeaderText = "Name";
-            this.name.MinimumWidth = 6;
-            this.name.Name = "name";
-            this.name.Width = 125;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Item";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Quantity";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Price";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Total";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
-            // edit
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.edit.DefaultCellStyle = dataGridViewCellStyle3;
-            this.edit.HeaderText = "EDIT";
-            this.edit.MinimumWidth = 6;
-            this.edit.Name = "edit";
-            this.edit.Text = "EDIT";
-            this.edit.UseColumnTextForButtonValue = true;
-            this.edit.Width = 125;
-            // 
-            // delete
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.delete.DefaultCellStyle = dataGridViewCellStyle4;
-            this.delete.HeaderText = "DELETE";
-            this.delete.MinimumWidth = 6;
-            this.delete.Name = "delete";
-            this.delete.Text = "DELETE";
-            this.delete.UseColumnTextForButtonValue = true;
-            this.delete.Width = 125;
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Lime;
@@ -158,7 +98,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(345, 63);
             this.button2.TabIndex = 24;
-            this.button2.Text = "Add To Payment ";
+            this.button2.Text = "Pay Now";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -382,6 +322,69 @@
             this.profile.UseVisualStyleBackColor = true;
             this.profile.Click += new System.EventHandler(this.profile_Click);
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Item";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Quantity";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Price";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Total Amount";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
+            // 
+            // edit
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.edit.DefaultCellStyle = dataGridViewCellStyle3;
+            this.edit.HeaderText = "EDIT";
+            this.edit.MinimumWidth = 6;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 125;
+            // 
+            // delete
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.delete.DefaultCellStyle = dataGridViewCellStyle4;
+            this.delete.HeaderText = "DELETE";
+            this.delete.MinimumWidth = 6;
+            this.delete.Name = "delete";
+            this.delete.Text = "Delete";
+            this.delete.UseColumnTextForButtonValue = true;
+            this.delete.Width = 125;
+            // 
+            // TotalPurchase
+            // 
+            this.TotalPurchase.AutoSize = true;
+            this.TotalPurchase.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalPurchase.Location = new System.Drawing.Point(613, 636);
+            this.TotalPurchase.Name = "TotalPurchase";
+            this.TotalPurchase.Size = new System.Drawing.Size(200, 32);
+            this.TotalPurchase.TabIndex = 26;
+            this.TotalPurchase.Text = "Total Purchase:";
+            this.TotalPurchase.Click += new System.EventHandler(this.TotalPurchase_Click);
+            // 
             // cart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -389,6 +392,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.dashboard_background_img1;
             this.ClientSize = new System.Drawing.Size(1319, 698);
+            this.Controls.Add(this.TotalPurchase);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.progressBar1);
@@ -412,19 +416,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewButtonColumn edit;
-        private System.Windows.Forms.DataGridViewButtonColumn delete;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Panel panel4;
@@ -444,5 +442,12 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button card;
         private System.Windows.Forms.Button profile;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
+        private System.Windows.Forms.DataGridViewButtonColumn delete;
+        private System.Windows.Forms.Label TotalPurchase;
     }
 }
