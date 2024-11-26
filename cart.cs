@@ -67,10 +67,6 @@ namespace Eclipse_Cofee_shop
                             "Delete"
                         );
                     }
-                    else
-                    {
-                        MessageBox.Show($"Error loading item ID {itemId}: {db.LastError}");
-                    }
                 }
             }
             catch (Exception ex)

@@ -83,7 +83,7 @@
             this.edit,
             this.delete});
             this.dataGridView1.Location = new System.Drawing.Point(312, 101);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dataGridView1.RowHeadersWidth = 51;
@@ -154,7 +154,7 @@
             this.button2.BackColor = System.Drawing.Color.Lime;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(943, 620);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(345, 63);
             this.button2.TabIndex = 24;
@@ -166,7 +166,7 @@
             // 
             this.progressBar1.BackColor = System.Drawing.Color.Black;
             this.progressBar1.Location = new System.Drawing.Point(316, 620);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(617, 63);
             this.progressBar1.TabIndex = 23;
@@ -178,7 +178,7 @@
             this.panel4.Controls.Add(this.panel17);
             this.panel4.Controls.Add(this.dashboard);
             this.panel4.Location = new System.Drawing.Point(16, 15);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(284, 84);
             this.panel4.TabIndex = 22;
@@ -188,7 +188,7 @@
             this.viewCard.BackColor = System.Drawing.Color.Lime;
             this.viewCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewCard.Location = new System.Drawing.Point(281, 11);
-            this.viewCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewCard.Margin = new System.Windows.Forms.Padding(4);
             this.viewCard.Name = "viewCard";
             this.viewCard.Size = new System.Drawing.Size(345, 63);
             this.viewCard.TabIndex = 15;
@@ -200,7 +200,7 @@
             this.panel17.BackColor = System.Drawing.Color.Transparent;
             this.panel17.Controls.Add(this.pictureBox4);
             this.panel17.Location = new System.Drawing.Point(296, 63);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(945, 567);
             this.panel17.TabIndex = 8;
@@ -208,7 +208,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Location = new System.Drawing.Point(-504, -39);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(465, 674);
             this.pictureBox4.TabIndex = 0;
@@ -242,7 +242,7 @@
             this.panel19.Controls.Add(this.profile);
             this.panel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel19.Location = new System.Drawing.Point(16, 15);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(284, 668);
             this.panel19.TabIndex = 21;
@@ -251,7 +251,7 @@
             // 
             this.pictureBox5.Image = global::Eclipse_Cofee_shop.Properties.Resources.table_logo;
             this.pictureBox5.Location = new System.Drawing.Point(0, 314);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(37, 39);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -263,7 +263,7 @@
             this.logOut.BackColor = System.Drawing.Color.Yellow;
             this.logOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logOut.Location = new System.Drawing.Point(31, 606);
-            this.logOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logOut.Margin = new System.Windows.Forms.Padding(4);
             this.logOut.Name = "logOut";
             this.logOut.Size = new System.Drawing.Size(207, 44);
             this.logOut.TabIndex = 5;
@@ -275,7 +275,7 @@
             // 
             this.pictureBox6.Image = global::Eclipse_Cofee_shop.Properties.Resources.order_logo;
             this.pictureBox6.Location = new System.Drawing.Point(0, 266);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(37, 41);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -287,7 +287,7 @@
             this.tableReservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableReservation.ForeColor = System.Drawing.Color.Blue;
             this.tableReservation.Location = new System.Drawing.Point(0, 314);
-            this.tableReservation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableReservation.Margin = new System.Windows.Forms.Padding(4);
             this.tableReservation.Name = "tableReservation";
             this.tableReservation.Size = new System.Drawing.Size(284, 39);
             this.tableReservation.TabIndex = 5;
@@ -299,7 +299,7 @@
             // 
             this.pictureBox7.Image = global::Eclipse_Cofee_shop.Properties.Resources.card_logo;
             this.pictureBox7.Location = new System.Drawing.Point(0, 218);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(37, 41);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -311,7 +311,7 @@
             this.order.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.order.ForeColor = System.Drawing.Color.Blue;
             this.order.Location = new System.Drawing.Point(0, 266);
-            this.order.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.order.Margin = new System.Windows.Forms.Padding(4);
             this.order.Name = "order";
             this.order.Size = new System.Drawing.Size(284, 41);
             this.order.TabIndex = 4;
@@ -323,7 +323,7 @@
             // 
             this.pictureBox14.Image = global::Eclipse_Cofee_shop.Properties.Resources.menu_logo;
             this.pictureBox14.Location = new System.Drawing.Point(0, 170);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(37, 41);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -334,7 +334,7 @@
             // 
             this.pictureBox15.Image = global::Eclipse_Cofee_shop.Properties.Resources.profile_logo;
             this.pictureBox15.Location = new System.Drawing.Point(0, 123);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(37, 42);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -346,7 +346,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(0, 170);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(284, 41);
             this.button1.TabIndex = 2;
@@ -360,7 +360,7 @@
             this.card.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.card.ForeColor = System.Drawing.Color.Blue;
             this.card.Location = new System.Drawing.Point(0, 218);
-            this.card.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card.Margin = new System.Windows.Forms.Padding(4);
             this.card.Name = "card";
             this.card.Size = new System.Drawing.Size(284, 41);
             this.card.TabIndex = 3;
@@ -373,7 +373,7 @@
             this.profile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.profile.ForeColor = System.Drawing.Color.Blue;
             this.profile.Location = new System.Drawing.Point(0, 123);
-            this.profile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.profile.Margin = new System.Windows.Forms.Padding(4);
             this.profile.Name = "profile";
             this.profile.Size = new System.Drawing.Size(284, 42);
             this.profile.TabIndex = 0;
@@ -387,14 +387,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1311, 697);
+            this.BackgroundImage = global::Eclipse_Cofee_shop.Properties.Resources.dashboard_background_img1;
+            this.ClientSize = new System.Drawing.Size(1319, 698);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel19);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "cart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "cart";

@@ -184,6 +184,7 @@ namespace Eclipse_Cofee_shop
 
             // If all validations pass
             MessageBox.Show("Payment submitted successfully!");
+            Application.Exit();
 
         }
     }
