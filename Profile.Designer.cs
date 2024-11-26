@@ -65,7 +65,7 @@
             this.panel4.Controls.Add(this.panel17);
             this.panel4.Controls.Add(this.dashboard);
             this.panel4.Location = new System.Drawing.Point(16, 15);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(284, 84);
             this.panel4.TabIndex = 28;
@@ -76,7 +76,7 @@
             this.panel17.Controls.Add(this.panel18);
             this.panel17.Controls.Add(this.pictureBox4);
             this.panel17.Location = new System.Drawing.Point(265, 63);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(976, 567);
             this.panel17.TabIndex = 8;
@@ -86,7 +86,7 @@
             this.panel18.BackColor = System.Drawing.Color.White;
             this.panel18.Controls.Add(this.pictureBox1);
             this.panel18.Location = new System.Drawing.Point(17, 25);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(267, 123);
             this.panel18.TabIndex = 0;
@@ -94,7 +94,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(135, -30);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(292, 149);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -104,7 +104,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Location = new System.Drawing.Point(-504, -39);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(465, 674);
             this.pictureBox4.TabIndex = 0;
@@ -138,7 +138,7 @@
             this.panel19.Controls.Add(this.profile1);
             this.panel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel19.Location = new System.Drawing.Point(16, 15);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(284, 668);
             this.panel19.TabIndex = 27;
@@ -147,7 +147,7 @@
             // 
             this.pictureBox5.Image = global::Eclipse_Cofee_shop.Properties.Resources.table_logo;
             this.pictureBox5.Location = new System.Drawing.Point(0, 314);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(37, 39);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -159,18 +159,19 @@
             this.logOut.BackColor = System.Drawing.Color.Yellow;
             this.logOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logOut.Location = new System.Drawing.Point(31, 606);
-            this.logOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logOut.Margin = new System.Windows.Forms.Padding(4);
             this.logOut.Name = "logOut";
             this.logOut.Size = new System.Drawing.Size(207, 44);
             this.logOut.TabIndex = 5;
             this.logOut.Text = "Log Out";
             this.logOut.UseVisualStyleBackColor = false;
+            this.logOut.Click += new System.EventHandler(this.logOut_Click);
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Eclipse_Cofee_shop.Properties.Resources.order_logo;
             this.pictureBox6.Location = new System.Drawing.Point(0, 266);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(37, 41);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -182,7 +183,7 @@
             this.tableReservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableReservation.ForeColor = System.Drawing.Color.Blue;
             this.tableReservation.Location = new System.Drawing.Point(0, 314);
-            this.tableReservation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableReservation.Margin = new System.Windows.Forms.Padding(4);
             this.tableReservation.Name = "tableReservation";
             this.tableReservation.Size = new System.Drawing.Size(284, 39);
             this.tableReservation.TabIndex = 5;
@@ -194,7 +195,7 @@
             // 
             this.pictureBox7.Image = global::Eclipse_Cofee_shop.Properties.Resources.card_logo;
             this.pictureBox7.Location = new System.Drawing.Point(0, 218);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(37, 41);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -206,7 +207,7 @@
             this.order.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.order.ForeColor = System.Drawing.Color.Blue;
             this.order.Location = new System.Drawing.Point(0, 266);
-            this.order.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.order.Margin = new System.Windows.Forms.Padding(4);
             this.order.Name = "order";
             this.order.Size = new System.Drawing.Size(284, 41);
             this.order.TabIndex = 4;
@@ -218,7 +219,7 @@
             // 
             this.pictureBox14.Image = global::Eclipse_Cofee_shop.Properties.Resources.menu_logo;
             this.pictureBox14.Location = new System.Drawing.Point(0, 170);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(37, 41);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -229,7 +230,7 @@
             // 
             this.pictureBox15.Image = global::Eclipse_Cofee_shop.Properties.Resources.profile_logo;
             this.pictureBox15.Location = new System.Drawing.Point(0, 123);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(37, 42);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -241,7 +242,7 @@
             this.menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu.ForeColor = System.Drawing.Color.Blue;
             this.menu.Location = new System.Drawing.Point(0, 170);
-            this.menu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menu.Margin = new System.Windows.Forms.Padding(4);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(284, 41);
             this.menu.TabIndex = 2;
@@ -255,7 +256,7 @@
             this.card.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.card.ForeColor = System.Drawing.Color.Blue;
             this.card.Location = new System.Drawing.Point(0, 218);
-            this.card.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card.Margin = new System.Windows.Forms.Padding(4);
             this.card.Name = "card";
             this.card.Size = new System.Drawing.Size(284, 41);
             this.card.TabIndex = 3;
@@ -269,7 +270,7 @@
             this.profile1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.profile1.ForeColor = System.Drawing.Color.Blue;
             this.profile1.Location = new System.Drawing.Point(0, 123);
-            this.profile1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.profile1.Margin = new System.Windows.Forms.Padding(4);
             this.profile1.Name = "profile1";
             this.profile1.Size = new System.Drawing.Size(284, 42);
             this.profile1.TabIndex = 0;
@@ -287,7 +288,7 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel19);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Profile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";

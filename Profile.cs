@@ -42,5 +42,12 @@ namespace Eclipse_Cofee_shop
             menu.Show(this);
             this.Hide();
         }
+
+        private void logOut_Click(object sender, EventArgs e)
+        {
+            Form1 LoginPage = new Form1();
+            LoginPage.Show();
+            this.Hide();
+        }
     }
 }
